@@ -7,7 +7,7 @@ print (pi)
 
 # Comparações
 print (2 == 2)
-print (2 !=2 )
+print (2 != 2)
 
 # Conversões
 a = int(pi)
