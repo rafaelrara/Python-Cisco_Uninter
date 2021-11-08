@@ -13,9 +13,9 @@ print (3* "Oi")                     # Multiplicador de string
 # Declaração de variáveis
 x = 5          
 y = "3.9"
-a,b = 0
 m,n,o = 2,4,6
 
 print ("Python version: " + y) # Concatenar com String
 print ("O valor é:",x)         # Concatenar com int/float/double...
+print ("O valor da soma de m + n + o = ",m+n+o)
 
