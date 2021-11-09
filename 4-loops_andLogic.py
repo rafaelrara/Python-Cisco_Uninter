@@ -23,3 +23,14 @@ print("\n")                 # Quebra de linha para organização
 # in / not in
 print(element in var_list)      # element(5) está na lista?      False
 print(element not in var_list)  # element(5) está fora da lista? True
+
+print("\n")                 # Quebra de linha para organização
+
+#  Lógica (and - or - not - xor)
+number_1 = 0
+number_2 = 10
+
+print (number_1 < number_2 and number_2 != number_1)            # 0 é menor que 10? E 10 é diferente de 0?
+print (number_1 < number_2 or number_2 != number_1)             # 0 é menor que 10? OU 10 é diferente de 0?
+print (number_1 < number_2 and not(number_2 != number_1))       # 0 é menor que 10? E negar(10 é diferente de 0)?
+print (number_1 < number_2 ^ number_2 == number_1)              # 0 é menor que 10? exclusivo ou 10 é igual a 0?
